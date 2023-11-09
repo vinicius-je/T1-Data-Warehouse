@@ -47,11 +47,11 @@ VALUES (1, 'S', 'S', 1, 1),
 INSERT INTO Marca (idMarca, nmMarca)
 VALUES (1, "Health & Care"), (2, "Alimentos Vix"), (3, "Bebidas Vix");
 
-INSERT INTO Conveniência (Produto_idProduto, Marca_idMarca)
+INSERT INTO Conveniencia (Produto_idProduto, Marca_idMarca)
 VALUES (2, 3),
 (4, 3),
 (6, 3),
-(9, 2),
+(8, 2),
 (10, 2),
 (12, 2),
 (14, 1),
