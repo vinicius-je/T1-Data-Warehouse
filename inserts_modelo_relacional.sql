@@ -51,7 +51,7 @@ INSERT INTO Conveniência (Produto_idProduto, Marca_idMarca)
 VALUES (2, 3),
 (4, 3),
 (6, 3),
-(9, 2),
+(8, 2),
 (10, 2),
 (12, 2),
 (14, 1),
