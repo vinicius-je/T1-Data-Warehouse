@@ -33,7 +33,7 @@ CREATE TABLE dimProduto (
 	nomeCategoria VARCHAR(30) NOT NULL,
 	nomeMarcaConveniencia VARCHAR(30) NOT NULL,
 	possuiGenerico VARCHAR(15) NOT NULL,
-	generico VARCHAR(15) NOT NOT NULL,
+	generico VARCHAR(15) NOT NULL,
 	nomeLaboratorio VARCHAR(20) NOT NULL,
 	nomeTipoTarja VARCHAR(45) NOT NULL,
   PRIMARY KEY(idProduto)
