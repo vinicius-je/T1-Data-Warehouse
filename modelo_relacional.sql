@@ -127,17 +127,17 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `dbFarmifes`.`Conveniência`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `dbFarmifes`.`Conveniência` (
+CREATE TABLE IF NOT EXISTS `dbFarmifes`.`Conveniencia` (
   `Produto_idProduto` INT NOT NULL,
   `Marca_idMarca` INT NOT NULL,
   PRIMARY KEY (`Produto_idProduto`),
-  INDEX `fk_Conveniência_Marca1_idx` (`Marca_idMarca` ASC) VISIBLE,
-  CONSTRAINT `fk_Conveniência_Produto1`
+  INDEX `fk_Conveniencia_Marca1_idx` (`Marca_idMarca` ASC) VISIBLE,
+  CONSTRAINT `fk_Conveniencia_Produto1`
     FOREIGN KEY (`Produto_idProduto`)
     REFERENCES `dbFarmifes`.`Produto` (`idProduto`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
-  CONSTRAINT `fk_Conveniência_Marca1`
+  CONSTRAINT `fk_Conveniencia_Marca1`
     FOREIGN KEY (`Marca_idMarca`)
     REFERENCES `dbFarmifes`.`Marca` (`idMarca`)
     ON DELETE NO ACTION
